@@ -1,0 +1,76 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    position: fixed;
+    z-index:1;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+nav ul {
+    list-style-type: none;
+    gap: 1rem;
+}
+nav ul a{
+    color:#d71ecb;
+    text-decoration: none;
+    font-size: 20px; 
+}
+
+.skills {
+    background-color: burlywood;
+    margin-top: 20%;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.card {
+    width: 25%;
+    background-color: bisque;
+    padding: 1rem;
+    margin: 1rem;
+    color: back;
+    float: left;
+    color: #d71e1e;
+}
+
+.parent {
+    background-color: aqua;
+    height: 20rem;
+    position: relative;
+}
+
+.child {
+    background-color: orange;
+    width: 20rem;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.tutorials{
+    height: 80vh;
+    margin-top: 1rem;
+    background-color: rgb(239, 38, 54);
+    gap:1rem;
+}
+.tutorial{
+    background-color: orange;
+    height: 10vh;
+    width: 25%;
+
+}
+

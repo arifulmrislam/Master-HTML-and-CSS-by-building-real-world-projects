@@ -27,3 +27,11 @@
 - Text properties
 - icon and emoji styling
 - Adding font awesome icon + style
+
+4. Box Model:
+- Content, Padding, Border, Margin
+- Box-sizing
+- Display: inline/ block/ inline-block
+- Width vs max-width
+- Opacity, overflow
+- Background property
